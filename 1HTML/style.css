@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    margin: 50px;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin: 20px;
+}
+div a{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    background-color: red;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.audio-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh; /* Ensures the content is vertically centered on the page */
+    text-align: center;
+}
+
+audio {
+    margin-bottom: 20px; /* Adds space between audio player and video */
+}
+
+iframe {
+    margin-top: 20px; /* Adds space between video and audio player */
+}
